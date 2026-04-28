@@ -1,0 +1,97 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <title>Профориентация | Выбери своё будущее</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <ul class="nav-menu">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#vuz">Вузы</a></li>
+            <li><a href="#test">Тест</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="textcontainer">
+    <section class="hero-section" id="home">
+        <div class="hero-textwrapper"><h1 class="hero-content">Построй свое будущее!</h1></div>
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="coverr-flipping-the-pages-of-a-marketing-book-5535-1080p.mp4" type="video/mp4">
+            <img src="images/fallback.jpg" alt="Background" class="hero-fallback">
+        </video>
+    </section>
+    <section class="textsection"><h1 class="hidden">куда идти после школы?</h1></section>
+    <section class="textsection"><h1 class="hidden">впереди — целый мир возможностей</h1></section>
+    <section class="textsection"><h1 class="hidden">сделай свой выбор!</h1></section>
+</div>
+
+<div class="content">
+    <div class="text">
+        <div class="textwrapper">
+            <h1>О сайте:</h1>
+            <p>Этот проект создан, чтобы помочь выпускникам нашего края сориентироваться в многообразии возможностей. Мы собрали информацию о местных вузах, актуальных специальностях и создали профориентационный тест. Не знаешь, куда поступать? Начни отсюда!</p>
+        </div>
+    </div>
+
+    <section class="vuz-carousel-section" id="vuz">
+        <div class="section-header">
+            <span class="section-subtitle">ВУЗЫ КРАЯ</span>
+            <h2 class="section-main-title">Ведущие университеты региона</h2>
+            <p class="section-description">Листайте карточки, чтобы узнать больше о каждом вузе</p>
+        </div>
+        <div class="single-carousel">
+            <button class="carousel-arrow prev-arrow" aria-label="Предыдущий">←</button>
+            <div class="carousel-viewport">
+                <div class="carousel-track">
+                    <article class="vuz-card"><img src="sfu.JPG" alt="СФУ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Сибирский федеральный университет</h3><p class="vuz-desc">Крупнейший вуз региона, входит в топ-15 вузов РФ</p><div class="vuz-footer"><span class="vuz-rating">★★★★½</span><span class="vuz-students">15 000 студентов</span></div><a href="https://www.sfu-kras.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="sibgu.jpg" alt="СибГУ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Сибирский государственный университет науки и технологий им. М.Ф. Решетнева</h3><p class="vuz-desc">Специализируется на ракетно-космической технике, авиации и лесных технологиях</p><div class="vuz-footer"><span class="vuz-rating">★★★★¼</span><span class="vuz-students">12 000 студентов</span></div><a href="http://sibsau.ru:8066/page/home/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="krasgmu.jpg" alt="КрасГМУ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Красноярский государственный медицинский университет им. В.Ф. Войно-Ясенского</h3><p class="vuz-desc">Лучший медицинский вуз региона с сильной клинической базой</p><div class="vuz-footer"><span class="vuz-rating">★★★★¾</span><span class="vuz-students">8 000 студентов</span></div><a href="https://krasgmu.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="kgpu.jpg" alt="КГПУ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Красноярский государственный педагогический университет</h3><p class="vuz-desc">Основной центр подготовки педагогических кадров</p><div class="vuz-footer"><span class="vuz-rating">★★★★</span><span class="vuz-students">5 000 студентов</span></div><a href="https://www.kspu.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="KrasGAU.jpg" alt="КрасГАУ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Красноярский государственный аграрный университет</h3><p class="vuz-desc">Лидирует в области сельского хозяйства, ветеринарии и природопользования</p><div class="vuz-footer"><span class="vuz-rating">★★★★</span><span class="vuz-students">6 000 студентов</span></div><a href="https://www.kgau.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="СГИИ.jpg" alt="СГИИ" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Сибирский государственный институт искусств имени Дмитрия Хворостовского</h3><p class="vuz-desc">крупнейший учебный, творческий, научный и методический центр в сфере музыкального, художественного, хореографического и театрального искусства</p><div class="vuz-footer"><span class="vuz-rating">★★★★½</span><span class="vuz-students">7 000 студентов</span></div><a href="https://kgii.ru/?jjj=1777173176603" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="irGUPS.jpg" alt="ИрГУПС" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Иркутский государственный университет путей сообщения</h3><p class="vuz-desc">Основной задачей института является подготовка высококвалифицированных специалистов, отвечающих современным требованиям, предъявляемым к инженерам и техникам в период реформирования железнодорожной отрасли.</p><div class="vuz-footer"><span class="vuz-rating">★★★★½</span><span class="vuz-students">10 000 студентов</span></div><a href="https://irgups.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                    <article class="vuz-card"><img src="SIBUP.jpg" alt="СИБУП" class="vuz-image"><div class="vuz-content"><h3 class="vuz-name">Сибирский институт бизнеса, управления и психологии</h3><p class="vuz-desc">Сибирский институт бизнеса, управления и психологии - высшее учебное заведение в Красноярске.</p><div class="vuz-footer"><span class="vuz-rating">★★★★½</span><span class="vuz-students">5 000 студентов</span></div><a href="https://sibup.ru/" class="vuz-link">Официальный сайт →</a></div></article>
+                </div>
+            </div>
+            <button class="carousel-arrow next-arrow" aria-label="Следующий">→</button>
+        </div>
+        <div class="carousel-counter"><span class="current-slide">1</span> / <span class="total-slides">4</span></div>
+    </section>
+
+    <div class="text">
+        <div class="textwrapper">
+            <h1>Все еще сомневаешься?</h1>
+            <p>Пройди наш короткий тест из 20 вопросов. Система проанализирует твои интересы и склонности и предложит 2-3 наиболее подходящих направления, которые можно изучать в вузах твоего региона.</p>
+        </div>
+    </div>
+</div>
+
+<section class="test-section" id="test">
+    <div class="test-container"></div>
+    <div class="result-card hidden">
+        <div class="result-header"><h3>Ваш результат</h3><div class="result-badge">Направление:</div></div>
+        <div class="result-content"></div>
+        <div class="result-actions"><button class="restart-btn">Пройти заново</button><button class="vuz-btn">Посмотреть подходящие вузы</button></div>
+    </div>
+</section>
+
+<footer class="simple-footer" id="contacts">
+    <p>Сайт создавался в рамках итогового проекта для 10-го класса в 2026 году</p>
+    <a class="contacts" href="https://vk.com/club212670818">Группа ВК</a>
+</footer>
+
+<script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
